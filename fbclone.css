@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-size: 12px;
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+}
+#left-c{
+    display: flex;
+    flex-direction: column;
+   
+}
+#login form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    margin: 15px;
+    padding: 15px;
+    /* opacity: 2; */
+    top: 120px;
+    width: 396px;
+    height: 300px;
+    right: 305px;
+    border-radius: 12px;
+     
+}
+#yy{
+  position: absolute;
+  top: 480px;
+  right: 383px;
+  font-size: 14px;
+
+}
+#login a{
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+}
+#login a:hover{
+    text-decoration: underline;
+    
+}
+#login input[placeholder]{
+    padding: 15px;
+    margin: 2px;
+    font-size: 15px;
+}
+footer{
+    background-color: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    display: grid;
+    padding: 50px 300px;
+    color: gray;
+    font-size: 14px;
+}
+footer button{
+    /* padding: 4px; */
+    height: 15px;
+    width: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    color: grey;
+}
+
+
+#logo-text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    width: 500px;
+    font-weight: normal ;
+    margin: 0px 30px;
+}
+#left img{
+    height: 106px;
+    /* margin: -20px; */
+}
+#left{
+    position: absolute;
+    top: 190px;
+    left: 205px;
+}
+#blog{
+    padding: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 17px;
+    cursor: pointer;
+}
+#blog:hover{
+    background-color: #265ca3;
+}
+#cna{
+    cursor: pointer;
+    padding: 10px;
+    background-color:#42b72a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 60%;
+    margin: 2px;
+    font-size: 15px;
+    margin: auto;
+}
+#cna:hover{
+    background-color: #3e952d;
+}
+
+#yy b:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

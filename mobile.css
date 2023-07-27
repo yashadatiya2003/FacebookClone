@@ -1,0 +1,175 @@
+body{
+    overflow: hidden;
+}
+
+.container{
+    box-sizing: border-box;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+
+
+#left{
+    position: fixed;
+    left: 150px;
+    flex-direction: column;
+   
+}
+#login form{
+    position: absolute;
+    right: 150px;
+    flex-direction: column;
+}
+#yy{
+    position: absolute;
+    right: 228px;
+    flex-direction: column;
+
+}
+
+@media (max-width:1280px){
+    #left{
+        position: fixed;
+        left: 80px;
+        flex-direction: column;
+       
+    }
+    #login form{
+        position: absolute;
+        right: 150px;
+        flex-direction: column;
+    }
+    #yy{
+        position: absolute;
+        right: 228px;
+        flex-direction: column;
+    
+    }
+}
+@media (max-width:1202px){
+    #left{
+        position: fixed;
+        left: 40px;
+        flex-direction: column;
+       
+    }
+    #login form{
+        position: absolute;
+        right: 100px;
+        flex-direction: column;
+    }
+    #yy{
+        position: absolute;
+        right: 178px;
+        flex-direction: column;
+    
+    }
+}
+@media (max-width:1150px){
+    #body{
+        height: 130vh;
+    }
+    #left{
+        /* justify-content: center; */
+        margin: auto;
+        /* top: 100px;
+        left: 350px; */
+        position: fixed;
+        top: 10px;
+        left: 10px;
+    }
+    #login {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+        top: 100px;
+        left: 350px;
+    }
+    #yy{
+        top: 477px;
+        width: 303px;
+    }
+    footer{
+        /* display: none; */
+        position: absolute;
+        bottom: 0px;
+        padding: 10px;
+    }
+
+}
+@media (max-width:480px){
+    
+    #login input[placeholder]{
+        font-size: 9px;
+        padding: 11px;
+        margin: 5px;
+        
+    }
+    #blog{
+        font-size: 10px;
+    }
+    #cna{
+        font-size: 9px;
+    }
+    #login{
+        height: 100px;
+        left: 330px;
+        
+    }
+    #left img{
+        height: 106px;
+        left: 0px;
+    }
+    #logo-text{
+        font-size: 15px;
+        left: 0px;
+        display: none;
+    }
+    footer{
+        font-size: 10px;
+        margin: 0px;
+    }
+}
+@media (max-width:430px){
+    #login{
+        position: fixed;
+        left: 480px;
+        padding: 2px;
+    }
+    #login form{
+        width: 296px;
+    }
+    #cna{
+        padding: 7px;
+    }
+    #yy{
+        font-size: 11px;
+        right: 96px;
+    }
+}
+@media (max-height:800px){
+    #logo-text{
+        display: none;
+    }
+    #login{
+        top: -35px;
+        left: 330px;
+    }
+}
+@media (max-height:700px){
+    #logo-text{
+        display: none;
+    }
+    #login{
+        top: -35px;
+        left: 460px;
+    }
+}
+@media (max-width:370px){
+    #login{
+        left: 450px;
+    }
+}
+
